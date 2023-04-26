@@ -88,7 +88,7 @@ const month = MONTHS[date.month];
 const year = date.year;
 
 const [first, second, third, fourth] = time; // changed timeasarray to time as its already an array and added const to variable
-total = first + second + third + fourth;
+const total = first + second + third + fourth; // added const
 
 const hours = total / 60;
 const minutes = total / hours / 60;
